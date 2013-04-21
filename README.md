@@ -19,11 +19,11 @@ Simple Usage
 ------------
 1) Ensure your make.conf is setup to use local ebuilds:
 
-  PORTDIR_OVERLAY="/usr/local/portage/"
+    PORTDIR_OVERLAY="/usr/local/portage/"
 
 2) Download the ebuild and install:
 
-  cd /usr/local/portage/
+    cd /usr/local/portage/
     wget https://github.com/p8952/915resolution-gentoo/archive/master.tar.gz
     tar xvf master.tar.gz
     mv 915resolution-gentoo-master/sys-apps .
