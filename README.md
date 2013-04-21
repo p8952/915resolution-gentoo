@@ -43,6 +43,9 @@ More Info:
 Further reading on 915resolution and uvesafb.
 
 http://915resolution.mango-lang.org/
+
 http://en.gentoo-wiki.com/wiki/Asus_Eee_PC_701#Framebuffer
+
 http://wiki.gentoo.org/wiki/Uvesafb
+
 https://wiki.archlinux.org/index.php/Uvesafb
