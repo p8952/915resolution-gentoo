@@ -18,16 +18,19 @@ running off the framebuffer it is still needed.
 Simple Usage
 ------------
 1) Ensure your make.conf is setup to use local ebuilds:
-    PORTDIR_OVERLAY="/usr/local/portage/"
+
+  PORTDIR_OVERLAY="/usr/local/portage/"
 
 2) Download the ebuild and install:
-    cd /usr/local/portage/
+
+  cd /usr/local/portage/
     wget https://github.com/p8952/915resolution-gentoo/archive/master.tar.gz
     tar xvf master.tar.gz
     mv 915resolution-gentoo-master/sys-apps .
     emerge -av 915resolution
     
 3) Change your framebuffer resolution:
+
     emerge -av klibc v86d
     915resolution 5c 800 480 32
     modprobe uvesafb mode_option=800x480-32@60
